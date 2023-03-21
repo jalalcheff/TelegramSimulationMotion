@@ -42,10 +42,10 @@
     </style>
 
     <style name="NormalText.CyanText">
-        <item name="android:textColor">#468DC3</item>
+        <item name="android:textColor">#5390C6</item>
     </style>
     <style name="SmallText.CyanText">
-        <item name="android:textColor">#468DC3</item>
+        <item name="android:textColor">#5390C6</item>
     </style>
     <style name="SmallText.gry">
         <item name="android:textColor">#818284</item>

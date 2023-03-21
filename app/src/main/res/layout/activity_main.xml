@@ -26,7 +26,7 @@
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/profile_logo_rec"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="500dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         android:visibility="invisible"
@@ -96,8 +96,6 @@
             android:layout_height="wrap_content"
             style="@style/SmallText.CyanText"
             android:text="Info"
-
-            android:textStyle="bold"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -115,7 +113,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="t.me/MessiFan112"
-                android:textStyle="bold"
                 android:layout_marginTop="8dp"
                 style="@style/NormalText.BlackText"
                 app:layout_constraintStart_toStartOf="parent"
@@ -163,7 +160,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Notification"
-                android:textStyle="bold"
                 style="@style/NormalText.BlackText"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
