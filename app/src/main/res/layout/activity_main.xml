@@ -39,8 +39,8 @@
         android:id="@+id/back_button"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
         app:srcCompat="@drawable/baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -58,7 +58,7 @@
             android:id="@+id/chanel_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="The Chance"
+            android:text="Messi Fans"
             android:layout_marginStart="24dp"
             android:layout_marginBottom="16dp"
             style="@style/NormalText.WhiteText"
@@ -70,7 +70,7 @@
             android:id="@+id/chanel_subscribers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="813 subscribers"
+            android:text="1M subscribers"
             style="@style/SmallText.WhiteText"
             android:textColor="@color/light_cyan"
             app:layout_constraintStart_toStartOf="@id/chanel_name"
@@ -84,6 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="14dp"
+        android:layout_marginTop="16dp"
         android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +114,7 @@
                 android:id="@+id/link_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="t.me/theChance101"
+                android:text="t.me/MessiFan112"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"
                 style="@style/NormalText.BlackText"
@@ -344,6 +345,34 @@
                     android:scaleType="fitXY"
                     android:layout_marginEnd="4dp"
                     app:srcCompat="@drawable/img_4"
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    app:srcCompat="@drawable/img_4"
+                    />
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    app:srcCompat="@drawable/img_5"
+                    />
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img"
                     />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
