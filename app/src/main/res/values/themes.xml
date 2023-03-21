@@ -36,6 +36,11 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+    <style name="logo_image1">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
     <style name="NormalText.CyanText">
         <item name="android:textColor">#468DC3</item>
     </style>
